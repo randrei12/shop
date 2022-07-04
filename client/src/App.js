@@ -1,8 +1,13 @@
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Top from "./Top"
+import './css/main.css'
+
 function App() {
   return (
-    <div className="App">
-        <h1>Le React</h1>
-    </div>
+    <Router>
+      <Top />
+    </Router>
   );
 }
 

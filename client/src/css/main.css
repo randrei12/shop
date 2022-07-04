@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --base-color: #002aff;
+    --hover-color: rgba(0, 42, 255, 0.35);
+}
