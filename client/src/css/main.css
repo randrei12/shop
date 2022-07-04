@@ -2,7 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f2f2f7;
+}
+
 :root {
     --base-color: #002aff;
-    --hover-color: rgba(0, 42, 255, 0.35);
+    --hover-color: rgba(0, 42, 255, 0.2);
 }

@@ -10,12 +10,12 @@ function Top() {
                 </Link>
                 <div className="searchDiv">
                     <input type='search' placeholder='Search...' />
-                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button><i className="fa-solid fa-magnifying-glass"></i></button>
                 </div>
-                <div>
-                    <button>Account</button>
-                    <button>Favorites</button>
-                    <button>Cart</button>
+                <div className="navRightSide">
+                    <button><i className="fa-solid fa-user"></i><span className='nameSpan'> Account</span></button>
+                    <button><i className="fa-solid fa-bookmark"></i><span className='nameSpan'> Bookmarks</span></button>
+                    <button><i className="fa-solid fa-cart-shopping"></i><span className='nameSpan'> Cart</span></button>
                 </div>
             </div>
         </div>
