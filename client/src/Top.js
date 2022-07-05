@@ -6,16 +6,16 @@ function Top() {
         <div className="navBar">
             <div className="container">
                 <Link to='/'>
-                    <img src='assets/logo_banner.png' />
+                    <img src='assets/logo_banner.png' alt='AND Store' />
                 </Link>
                 <div className="searchDiv">
                     <input type='search' placeholder='Search...' />
                     <button><i className="fa-solid fa-magnifying-glass"></i></button>
                 </div>
                 <div className="navRightSide">
-                    <button><i className="fa-solid fa-user"></i><span className='nameSpan'> Account</span></button>
-                    <button><i className="fa-solid fa-bookmark"></i><span className='nameSpan'> Bookmarks</span></button>
-                    <button><i className="fa-solid fa-cart-shopping"></i><span className='nameSpan'> Cart</span></button>
+                    <Link to='/account'><i className="fa-solid fa-user"></i><span className='nameSpan'> Account</span></Link>
+                    <Link to='/bookmarks'><i className="fa-solid fa-bookmark"></i><span className='nameSpan'> Bookmarks</span></Link>
+                    <Link to='/cart'><i className="fa-solid fa-cart-shopping"></i><span className='nameSpan'> Cart</span></Link>
                 </div>
             </div>
         </div>
